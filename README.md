@@ -22,22 +22,16 @@ BizCardX is a powerful tool designed to simplify the extraction and organization
 
 ## Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/bizcardx.git
-   cd bizcardx
-   ```
-
-2. **Install the required packages:**
+1. **Install the required packages:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up the database:**
+2. **Set up the database:**
    - Ensure MySQL is installed and running on your machine.
    - Create a database named `project03` and a table named `bizcard` with the appropriate schema.
 
-4. **Configure database connection:**
+3. **Configure database connection:**
    - Update the `db_config` dictionary in the script with your MySQL credentials.
 
 ## Usage
